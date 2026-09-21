@@ -2,7 +2,6 @@ import platform
 from utils.linux import get_wifi_passwords_linux
 from utils.windows import get_wifi_passwords_windows
 
-
 def get_wifi_passwords():
     system = platform.system()
     if system == "Windows":
